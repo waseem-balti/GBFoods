@@ -1,0 +1,64 @@
+.checkout-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.checkout-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.checkout-form input[type="text"], .checkout-form input[type="email"], .checkout-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.checkout-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.checkout-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.checkout-form {
+  width: 50%;
+  margin: 0 auto;
+}
+.form-group {
+margin-bottom: 1.5rem;
+}
+
+label {
+font-weight: bold;
+display: block;
+margin-bottom: 0.5rem;
+}
+
+input[type="text"], select {
+width: 100%;
+padding: 0.5rem;
+border-radius: 0.25rem;
+border: 1px solid #ced4da;
+font-size: 1rem;
+}
+
+button[type="submit"] {
+padding: 0.5rem 1rem;
+font-size: 1.25rem;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 0.25rem;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #0069d9;
+}

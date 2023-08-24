@@ -1,0 +1,54 @@
+.ourStory__subtitle {
+	font-weight: 600;
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+	color: rgba(48, 44, 44, 0.926);
+}
+
+.ourStory__text,
+.ourGoals__text {
+	line-height: 1.4em;
+	color: rgba(15, 10, 10, 0.772);
+	font-size: 1.4rem;
+}
+
+.ourStory__wrapper {
+	flex-direction: column;
+	gap: 2rem;
+	display: flex;
+}
+
+.ourStory__title,
+.ourGoals__title {
+	font-weight: 600;
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	color: rgba(48, 44, 44, 0.926);
+}
+
+@media only screen and (min-width: 768px) {
+	.ourStory__text,
+	.ourGoals__text {
+		max-width: 800px;
+		font-size: 1.8rem;
+	}
+
+	.ourStory__img,
+	.ourStory__info {
+		flex: 1;
+	}
+
+	.ourStory__title,
+	.ourGoals__title {
+		font-size: 3.6rem;
+	}
+
+	.ourStory__subtitle {
+		font-size: 1.8rem;
+	}
+
+	.ourStory__wrapper {
+		gap: 3rem;
+		flex-direction: row;
+	}
+}

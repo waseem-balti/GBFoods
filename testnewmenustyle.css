@@ -1,0 +1,118 @@
+.add-to-cart-qty{
+    margin: 5px;
+    padding: 5px; 
+}
+
+.add-to-cart-submit-btn {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.add-to-cart-submit-btn:hover {
+    background-color: #00678e;
+    cursor: pointer;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .menu-item-details {
+    padding: 20px;
+  }
+  
+  .menu-item-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-addtocart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-item-addtocart form{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 2rem;
+    align-items: center;
+  }
+  
+  .menu-item-quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .menu-item-quantity input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .add-to-cart-submit-btn {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-to-cart-submit-btn:hover {
+    background-color: #006F8F;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-item {
+      width: 100%;
+    }
+  }
+
+  .category {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+   }
+
+  .category-title {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+    
